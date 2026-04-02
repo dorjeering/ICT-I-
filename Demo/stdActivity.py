@@ -8,10 +8,10 @@ if ndbl<=0:
     print("Keep it up.👍")
 elif ndbl<=5:
     f= (ndbl * 5)
-    print("You have a total fine of Nu.",f, " to pay.")
+    print("You have a total fine of Nu.",f, "/- to pay.")
 elif ndbl<=10:
     fi=(ndbl*10)
-    print("You have a total fine of Nu.",fi," to pay.")
+    print("You have a total fine of Nu.",fi,"/- to pay.")
 else:
     fin=(ndbl*20)
     print("you have a total fine of Nu.",fin,"/- to pay.")
