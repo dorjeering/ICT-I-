@@ -11,6 +11,8 @@ ins=s.intersection(ss) #intersection of two sets
 print(ins)
 ds=s.difference(ss) #difference of two sets
 print(ds)
+dis=ss.difference(s) #difference of two sets
+print(dis)
 s.clear() #clearing a set
 print(s) #deleting a set
 print()
