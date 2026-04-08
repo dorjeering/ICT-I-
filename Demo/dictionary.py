@@ -21,4 +21,7 @@ del_key, del_value=userDetails.popitem() #Removing the last inserted key-value p
 print(f'the deleted key is {del_key} and the deleted value is {del_value}')#Printing the deleted key and value
 location.clear() #Clearing all key-value pairs from the location dictionary
 print(location) #Printing the empty location dictionary
+print(userDetails.items())#Printing all key-value pairs in the userDetails dictionary as a list of tuples
+print(userDetails.keys())#Printing all keys in the userDetails dictionary
+print(userDetails.values())#Printing all values in the userDetails dictionary
 print()
