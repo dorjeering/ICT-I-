@@ -27,3 +27,7 @@ set1 = {10,30,20}
 for x in set1:
     print(x)
 print()
+BookDetails = dict({"Python Programming": "John Smith", "Python Fundamentals": "Jane Doe", "Python Interview Questions": "Alice Johnson"})
+for keys in BookDetails:
+    print(keys," : ",BookDetails[keys])
+print()
