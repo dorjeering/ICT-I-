@@ -20,6 +20,8 @@ student_dict['Dorji'] = {'age': 20, 'grade': 'A'}#adding student details to the 
 student_dict['Tshering'] = {'age': 21, 'grade': 'A'}#adding student details to the dictionary
 student_dict['Karma'] = {'age': 22, 'grade': 'A'}#adding student details to the dictionary
 student_dict['Wangdi'] = {'age': 23, 'grade': 'A'}#adding student details to the dictionary
+print("Existing students: ", student_list) #printing the existing list of students
+print()#printing an empty line for better readability
 
 add_student = input("Enter the student name to add or else enter to skip: ") #taking input for student name to be added to the existing list of students
 add_age = int(input("Enter the age of the student: ")) #taking input for student age to be added to the existing set of student ages and also to be added to the dictionary along with the student name
