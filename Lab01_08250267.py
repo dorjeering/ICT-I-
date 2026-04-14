@@ -32,6 +32,7 @@ if add_student: #checking if the input for student name
     student_grade.add(add_grade) #adding student grade to the set
     student_dict[add_student] = {'age': add_age, 'grade': add_grade} #adding student details to the dictionary 
     print(f"Student added successfully! The age of the student '{add_student}' is {student_dict[add_student]['age']} and the grade is {student_dict[add_student]['grade']}.")#printing the details of the new student added before
+    print("New list of students: ", student_list) #printing the new list of students after adding the new student to the existing list of students
 else:
     print("No student added")#printing the reminder if no student are added
 print()#printing a blank line
@@ -49,7 +50,9 @@ if remove_student in student_list: #checking if the input for student name is th
     del student_dict[remove_student] #removing student details from the dictionary
 
     print("Student removed successfully!") #printing the message of success if the student is removed successfully
+    print()
     print("Students left along with their details: ", student_dict) #printing the details of the remaining students after removing the particular student from the dictionary
+    print()
     print("List of students left: ", student_list) #printing the list of remaining students after removing the particular student from the list
 else: #setting the second condition to be executed if the first condition is not satisfied
     print("Student not found") #printing the message of successfully excuting the second condition
