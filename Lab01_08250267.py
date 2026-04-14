@@ -32,7 +32,7 @@ if add_student: #checking if the input for student name
     student_grade.add(add_grade) #adding student grade to the set
     student_dict[add_student] = {'age': add_age, 'grade': add_grade} #adding student details to the dictionary 
     print(f"Student added successfully! The age of the student '{add_student}' is {student_dict[add_student]['age']} and the grade is {student_dict[add_student]['grade']}.")#printing the details of the new student added before
-    print("New list of students: ", student_list) #printing the new list of students after adding the new student to the existing list of students
+    print("Updated list of students with their details: ", student_dict) #printing the new list of students after adding the new student to the existing list of students
 else:
     print("No student added")#printing the reminder if no student are added
 print()#printing a blank line
