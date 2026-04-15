@@ -19,11 +19,11 @@ for i in range(6,0,-1):
     print()
 print("====="*24)
 
-'''for i in range(1):
-    for j in range(1,i+3):
-        print("*", end=" ")'''
 for i in range(1):
     for j in range(1,i+3):
+        print("*", end=" ")
+for i in range(1):
+    for j in range(1,i+4):
         print("*")
 for f in range(1):
     for h in range(1,i+4):
