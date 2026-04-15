@@ -28,4 +28,4 @@ for i in range(1):
 for f in range(1):
     for h in range(1,i+4):
         print("*", end=" ")
-print()
+print("====="*24)
