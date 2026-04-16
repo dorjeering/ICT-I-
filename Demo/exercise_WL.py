@@ -1,5 +1,5 @@
 print("<<>><<>>"*15)
-'''countdown_timer = 10
+countdown_timer = 10
 while countdown_timer > 0:
     print(countdown_timer)
     countdown_timer -= 1
@@ -11,7 +11,7 @@ while num > 0:
     sum += num
     num = int(input("Enter number to calculate the sum: "))
 print("The sum is: ", sum)
-print("<<>><<>>"*15)'''
+print("<<>><<>>"*15)
 for i in range(3):
     username = input("Enter your username: ")
     if username == "admin":
