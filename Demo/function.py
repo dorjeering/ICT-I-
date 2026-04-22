@@ -17,4 +17,12 @@ sum_with_parameters(3,7)
 
 def pwp(x,y):
     print("The product of ",x ,"and ", y, "is: ",x*y)
-pwp(9,8)
+pwp(9,8)#calling the function with parameter arguments(9 and  8)
+
+def sum_with_return(x,y):
+    return x+y
+print("The sum of 4 and 6 is: ",sum_with_return(4,6))#calling the function with parameter arguments(4 and 6) and printing the return value
+
+def pwr(x,y):
+    return x*y
+print("The product of 5 and 8 is: ", pwr(5,8))
