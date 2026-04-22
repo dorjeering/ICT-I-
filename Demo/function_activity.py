@@ -13,7 +13,7 @@ total = calculate_total(x, y, z)
 average = calculate_average(total)
 
 print("Total Marks:", total)
-print("Average:", average)
+print(f"Average: {average:.2f}")
 if average>=50:
     print("Result: Pass")
 else:
