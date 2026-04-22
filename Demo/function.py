@@ -8,5 +8,5 @@ def product():
     b = 10
     print("The product of a and b is: ", a * b) 
 
-sum()
-product()
+sum()#calling the sum function
+product()#calling the product function
