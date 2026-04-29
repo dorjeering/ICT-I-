@@ -14,5 +14,5 @@ def fact(n):
     else:
         return n * fact(n - 1)
 n = int(input("Enter a number: "))
-print("The factorial of {} is: {}".format(n, fact(n)))
+print("Factorial of {} is: {}".format(n, fact(n)))
 print()
