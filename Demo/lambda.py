@@ -1,0 +1,5 @@
+print()
+name = input("Enter your name: ")
+greet = lambda x: print("Hello, ", x)
+greet(name)
+print()
