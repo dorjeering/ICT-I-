@@ -1,5 +1,5 @@
 print()
-'''while True:
+while True:
     name = input("Enter your name: ")
     if not name:
         break
@@ -40,5 +40,5 @@ print()
 from functools import reduce
 mlist = [1,2,3,4]
 mul = reduce(lambda x, y: x*y, mlist)
-print("Multiplication of all numbers in the list: ", mul)'''
+print("Multiplication of all numbers in the list: ", mul)
 print()
