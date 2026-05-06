@@ -35,10 +35,10 @@ double = map(lambda x: x*2, nlist)
 newlist = list(double)
 back = map(lambda x: x/2, newlist)
 print("Doubled numbers: ", list(double))
-print("Converting back to nlist: ", list(back))'''
+print("Converting back to nlist: ", list(back))
 print()
 from functools import reduce
 mlist = [1,2,3,4]
 mul = reduce(lambda x, y: x*y, mlist)
-print("Multiplication of all numbers in the list: ", mul)
+print("Multiplication of all numbers in the list: ", mul)'''
 print()
